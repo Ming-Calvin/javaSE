@@ -1,38 +1,34 @@
-.DS_Store
-node_modules/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-**/*.log
-/dist
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-tests/**/coverage/
-tests/e2e/reports
-selenium-debug.log
+# Folder config file
+Desktop.ini
 
-# local env files
-.env.local
-.env.*.local
+# java class file
+*.class
+
+# Package Files #
+*.war
+*.ear
+/target
+/.settings
+/.classpath
+/.project
+/.idea
+
+# ignore Maven generated target folders
+target
+out
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.factorypath
+.metadata
 .idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.local
+*.iml
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# ignore log files
+*.log
