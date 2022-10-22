@@ -8,4 +8,11 @@ public class Kids extends ManKind{
   public void printAge() {
     System.out.println(yearsOld);
   }
+
+  @Override
+  public void manOrWomen() {
+    super.manOrWomen();
+  }
+
+  
 }
